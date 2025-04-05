@@ -1,6 +1,4 @@
-# Let's create a README.md file with the provided content, using embedded GIPHY links.
 
-readme_content = """
 # 🧬 BioInformatica
 
 ![Bioinformatics Icon](https://www.flaticon.com/svg/static/icons/svg/2917/2917995.svg)
@@ -27,15 +25,21 @@ readme_content = """
 - **Payments**: Stripe API  
 - **Deployment**: Netlify/Vercel
 
-additional_content = """
 ## 📄 File Structure
 
-/bioinformatica_ai_team/ ├── config/ │ └── agents_config.json # AI team definitions ├── agents/ │ ├── julis.py # CEO agent │ ├── dex.py # COO agent │ └── kai.py # Marketing agent ├── main.py # Main execution file ├── utils/ │ └── notify.py # Notification utilities ├── .env # Environment variables
-
-markdown
-Always show details
-
-Copy
+```
+/bioinformatica_ai_team/
+├── config/
+│   └── agents_config.json         # AI team definitions
+├── agents/
+│   ├── julis.py                   # CEO agent
+│   ├── dex.py                     # COO agent
+│   └── kai.py                     # Marketing agent
+├── main.py                        # Main execution file
+├── utils/
+│   └── notify.py                  # Notification utilities
+├── .env                           # Environment variables
+```
 
 ## 🔔 Notifications
 
@@ -58,11 +62,41 @@ We welcome contributions! Please fork the repository and submit a pull request.
 ## 📄 License
 
 This project is licensed under the MIT License.
-"""
 
-# Append the additional content to the README file
-with open("/mnt/data/README.md", "a") as file:
-    file.write(additional_content)
+## 📄 File Structure
 
-"/mnt/data/README.md"
+```
+/bioinformatica_ai_team/
+├── config/
+│   └── agents_config.json         # AI team definitions
+├── agents/
+│   ├── julis.py                   # CEO agent
+│   ├── dex.py                     # COO agent
+│   └── kai.py                     # Marketing agent
+├── main.py                        # Main execution file
+├── utils/
+│   └── notify.py                  # Notification utilities
+├── .env                           # Environment variables
+```
 
+## 🔔 Notifications
+
+AI agents provide regular updates:
+
+- **Julis (AI CEO)**: Oversees operations and aligns product direction.  
+- **Dex (AI COO)**: Monitors app uptime and manages infrastructure.  
+- **Kai (AI Growth Hacker)**: Handles content posting and engagement tracking.
+
+## 📈 Growth Strategy
+
+- Launch with a limited MVP targeting students & individual researchers.  
+- Share educational content on platforms like LinkedIn and Reddit.  
+- Offer free Pro access to select institutions for feedback.
+
+## 🤝 Contributing
+
+We welcome contributions! Please fork the repository and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
